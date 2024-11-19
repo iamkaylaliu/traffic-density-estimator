@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Vehicle']
+
+roboflow:
+  workspace: opencv-project
+  project: vehicle_detetcion
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/opencv-project/vehicle_detetcion/dataset/6
